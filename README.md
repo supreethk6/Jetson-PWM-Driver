@@ -1,8 +1,8 @@
-# JHPWMDriver
+# Jetson PWM Driver
 A driver for the Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface - PCA9685.
 http://www.adafruit.com/product/815
 
-Built for the NVIDIA Jetson TK1 Development Kit.
+Built for the NVIDIA Jetson TX1 Development Kit.
 
 In order to run the example, edit example/servoExample.cpp and uncomment the lines:
 
@@ -30,4 +30,4 @@ You should see an entry of 0x40, which is the default address of the PCA9685. If
 
 You must have root permission to use the I2C bus, ie you must use sudo. To run the example:
 
-<blockquote>$ sudo ./servoExample.cpp</blockquote>
+<blockquote>$ sudo ./servoExample.cpp</blockquote> 
